@@ -1,0 +1,7 @@
+body {background-color: #00FFFF; }
+.titulo1 {color: #7FFFD4; text-align: center; background-color: white; font-size: 800%; text-decoration: underline; font-style: italic;}
+h2 {text-decoration: underline; color: #7FFF00; font-size: 200%; font-style: italic;}
+.imagen {width: 30%; height: 90%; text-align: center;}
+h3 {text-decoration: underline; color: #556B2F; font-style: italic;}
+li {font-style: oblique;}
+.hola {font-size: 250%}

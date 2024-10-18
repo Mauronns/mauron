@@ -1,0 +1,44 @@
+/*ediciom MUCHO mas facil*/
+
+body {background-color: #FFE4C4}
+h1 {text-align: center;
+  text-decoration: underline;}
+nav {text-align: center;}
+.yop {color: #A52A2A;
+      align-self: center;
+    font-size: 95%;
+    text-decoration: underline;}
+    .aqui {color:  #A52A2A;
+          text-decoration: underline;}
+
+/*edicion con flex-box y demas*/
+
+.potrero {width: 3%;
+          height: 3%;
+          align-self: center;}
+.pie-de-pagina {text-align: center;}
+footer {display: flex;
+        justify-content: space-around;
+        flex-wrap: wrap;}
+         .icono1 {align-self: center;}
+.micasa {flex-direction: column;}
+header {border: 10px;
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: wrap;}
+        .vinculos {align-self: center;}
+nav {display: flex;
+    justify-content: center;}
+
+/*edicion con pseudo-clases*/
+
+    a {transition: transform 0.1s ease;}
+    a:hover {background-color: #FA8072;}
+    a:active {transform: scale(120%);}
+    .inicio:link {color: #A52A2A;}
+    .inicio:visited {color: green;}
+
+/*edicion con unidades de tamaño relativas*/
+
+    body {width: 100vw;}
+    .casita {width: 25vw;}

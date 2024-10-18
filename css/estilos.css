@@ -1,3 +1,5 @@
+                                     /* edicion MUCHO mas facil*/
+
 body {background-image: url(../imagenes/fondo3.jpg.png);
   background-color: #F0F8FF;
   background-attachment: fixed;}
@@ -22,20 +24,23 @@ li {font-style: oblique;
 .hola {font-size: 250%}
  .info {text-align: center;}
 .links {text-align: center;}
-.potrero {width: 3%;
-          height: 3%;
-          align-self: center;}
+
+                                      /*estilos con flex-box y demas*/
+
 .boton-flotante {position: fixed;
                   background-color: white;
                   box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
                 text-align: right;
               bottom: 650px;
             right: 200px;
-          border-radius: 100px;
+          border-radius: 50px;
         font-size: 5px;
       width: 50px;
     height: 50px;}
 .boton-flotante:hover {background-color: #45a049}
+.potrero {width: 3%;
+          height: 3%;
+          align-self: center;}
 .pie-de-pagina {text-align: center;}
 footer {display: flex;
         justify-content: space-around;
@@ -53,3 +58,23 @@ header {border: 10px;
         justify-content: space-around;
         flex-wrap: wrap;}
         .vinculos {align-self: center;}
+.contactos {text-decoration: underline;
+           color: #7B68EE}
+.contact {flex-direction: column;}
+nav {display: flex;
+    justify-content: center;}
+
+                                        /* edicion con pseudo-clases*/
+
+a {transition: transform 0.1s ease;}
+a:hover {background-color: #FA8072;}
+a:active {transform: scale(120%);}
+.contact {transition: transform 0.1s ease;}
+.contact:active {transform: scale(120%);}
+
+                                     /*edicion con unidades de tamaño relativas*/
+
+img {width: 4vw;}
+iframe {width: 35vw;}
+body {width: 100vw;}
+.casita {width: 25vw;}

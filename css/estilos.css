@@ -63,6 +63,8 @@ header {border: 10px;
 .contact {flex-direction: column;}
 nav {display: flex;
     justify-content: center;}
+.dispositivomovil {flex-direction: column; color: #FA8072; font-size: 50%;}
+.compu { flex-direction: column; color: #FA8072; font-size: 50%;}
 
                                         /* edicion con pseudo-clases*/
 
@@ -78,3 +80,14 @@ img {width: 4vw;}
 iframe {width: 35vw;}
 body {width: 100vw;}
 .casita {width: 25vw;}
+
+
+                                       /*media queries*/
+
+@media (max-width: 600px) {
+  .imagen {display: none;} .titulo1 {font-size: 180%} .contactos {font-size: 50%}
+  iframe {width: 70vw; height: 40vh} .casita {width: 30vw; height: 15vh} .compu {display: none;}
+}
+@media (min-width: 601px) {
+.dispositivomovil {display: none;}
+}

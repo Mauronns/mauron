@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Doto:wght@100..900&family=Sour+Gummy:ital,wght@0,100..900;1,100..900&display=swap');
+
                                      /* edicion MUCHO mas facil*/
 
 body {background-image: url(../imagenes/fondo3.jpg.png);
@@ -5,9 +7,10 @@ body {background-image: url(../imagenes/fondo3.jpg.png);
   background-attachment: fixed;}
 .titulo1 {color: #00CED1;
   text-align: center;
-  font-size: 800%;
+  font-size: 600%;
   text-decoration: underline;
-  font-style: italic;}
+  font-style: italic;
+  font-family: "Doto", sans-serif;}
 h2 {text-decoration: underline;
   color: #ADD8E6;
   font-size: 250%;
@@ -17,7 +20,8 @@ h2 {text-decoration: underline;
   text-align: center;}
 h3 {text-decoration: underline;
   color: #ADD8E6;
-  font-style: italic;}
+  font-style: italic;
+  font-family: "Sour Gummy", sans-serif;}
 li {font-style: oblique;
     color: #E0FFFF;
     font-size: 125%;}
@@ -35,11 +39,9 @@ li {font-style: oblique;
             right: 200px;
           border-radius: 50px;
         font-size: 5px;
-      width: 50px;
-    height: 50px;}
+      width: 4vw;}
 .boton-flotante:hover {background-color: #45a049}
-.potrero {width: 3%;
-          height: 3%;
+.head-icon {width: 6vw;
           align-self: center;}
 .pie-de-pagina {text-align: center;}
 footer {display: flex;
@@ -56,8 +58,10 @@ footer {display: flex;
 header {border: 10px;
         display: flex;
         justify-content: space-around;
-        flex-wrap: wrap;}
-        .vinculos {align-self: center;}
+        flex-wrap: wrap;
+        }
+        .vinculos {align-self: center;
+        flex-direction: row;}
 .contactos {text-decoration: underline;
            color: #7B68EE}
 .contact {flex-direction: column;}
@@ -65,6 +69,13 @@ nav {display: flex;
     justify-content: center;}
 .dispositivomovil {flex-direction: column; color: #FA8072; font-size: 50%;}
 .compu { flex-direction: column; color: #FA8072; font-size: 50%;}
+.navegacion {text-align: center;
+             justify-content: space-between;}
+.inicio {position: fixed;
+         text-align: right;
+         bottom: 300px;
+         right: 200px;
+         display: flex;}
 
                                         /* edicion con pseudo-clases*/
 
@@ -80,7 +91,7 @@ img {width: 4vw;}
 iframe {width: 35vw;}
 body {width: 90vw;}
 .casita {width: 25vw;}
-
+.wasap-img {width: 4vw}
 
                                        /*media queries*/
 

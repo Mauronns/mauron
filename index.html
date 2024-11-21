@@ -12,12 +12,12 @@
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
   <link rel="stylesheet" href="./css/estilos.css">
                                 </head>
-  <body>
+     <body>
 
   <header>
     <br>
-    <img class="potrero" src="./imagenes/icono.jpg" alt="icono">
-    <h1 class="titulo1">Receta de pizza italiana</h1>
+    <img class="head-icon" src="./imagenes/head-icon.png" alt="icono">
+    <h1 class="titulo1" id="Inicio">Receta de pizza italiana</h1>
     <div class="vinculos">
       <a href="https://twitter.com/?lang=es" target="_blank"><img src="./imagenes/x.jpg" alt="x"> </a>
       <a href="https://www.instagram.com/mauronns_?igsh=MTV4Ym10ZGozN3lmZw==" target="_blank"><img src="./imagenes/instagram.jpg" alt="instagram"> </a>
@@ -45,13 +45,21 @@
   <a href="https://www.olivetto.com.co/recetas/como-hacer-pizza-italiana/" target="_blank"><img src="./imagenes/receta3.jpg" alt="otra receta"> </a>
   <a href="https://www.recetasdesbieta.com/autentica-pizza-italiana-masa-pizza-salsa-pizza/" target="_blank"><img src="./imagenes/receta4.jpg" alt="otra receta"></a>
 </nav>
-<a href="https://wa.me/+549112763-1506" class="boton-flotante" target="_blank"> <img src="./imagenes/wasap1.jpg" alt=""></a>
+<a href="https://wa.me/+549112763-1506" class="boton-flotante" target="_blank"> <img src="./imagenes/wasap1.jpg" alt="" class="wasap-img"></a>
 <br>
-
+<div class="navegacion">
+  <a href="#Receta"><button type="button" class="btn btn-outline-warning">Receta</button></a>
+  <a href="#Otras recetas"><button type="button" class="btn btn-outline-warning">Otras recetas</button></a>
+  <a href="#Informacion"><button type="button" class="btn btn-outline-warning">Informacion</button></a>
+</div>
+<div class="inicio">
+  <a href="#Inicio"><button type="button" class="btn btn-outline-warning">Inicio</button></a>
+</div>
+<br>
 <button onclick="cambiarpagina()">Pagina inclusiva</button>
 
 <br>
-<section>
+<section id="Receta">
   <br>
   <h2>Ingredientes</h2>
   <ul>
@@ -88,7 +96,7 @@
 </aside>
 <br>
 
-<div class="row">
+<div class="row" id="Otras recetas">
   <div class="col-lg-3 col-md-6 col-sm-3">
     <div class="card text-bg-success text-center mb-3">
     <img src="./imagenes/milanesa.jpg" class="card-img-top" alt="...">
@@ -141,7 +149,7 @@
 <br>
 
 
-<footer class="pie-de-pagina">
+<footer class="pie-de-pagina" id="Informacion">
   <div class="micasa">
     <p class="aqui">Aqui un mapa de mi barrio</p>
     <iframe class="casita"src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d13146.5690675827!2d-58.73421858338319!3d-34.53729029567688!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1ses!2sar!4v1728606123202!5m2!1ses!2sar" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
@@ -157,6 +165,7 @@
 </div>
 </footer>
 <button onclick="info()">Informacion sobre mi</button>
+<iframe src="https://docs.google.com/forms/d/e/1FAIpQLSe5bw-8ObtxJZNzUKKGUAXRVLm4Fg27FOzgOXw-TQYynikvLw/viewform?embedded=true"  width="640" height="927" frameborder="0" marginheight="0" marginwidth="0">Cargando…</iframe>
 <br>
 <p>Como aclaracion los ingredientes, los pasos a seguir y el video no son de una misma pagina.</p>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
